@@ -1,0 +1,52 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family:  'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid #C7C8CC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    opacity: 0.7;
+    transition: all ease-in-out 0.3s;
+ } 
+
+#increment-btn {
+    background: #1B3C73;
+}
+
+#save-btn {
+    background: #0D9276;
+}
+
+.container {
+    margin:2rem auto;
+    background: #F1F6F9;
+    max-width: 50%;
+    border: 3px solid black;
+  
+}
